@@ -311,7 +311,7 @@ background-color: #23aeae;
     background-color: #1cd7d7;
     color: white;
     padding: 17px 24px;
-    width: 133px;
+    /* width: 133px; */
     display: flex;
     font-weight: bold;
     justify-content: center;
@@ -439,6 +439,9 @@ background-color: #23aeae;
     transition: 0.3s;
     display: block;
 }
+.teams .team:hover .temp{
+width: 0;
+}
 @media (max-width:992px) {
     .teams .team .temp{
         left: 113px;
@@ -462,7 +465,7 @@ background-color: #23aeae;
     gap: 75px;
     margin-top: 65px;
     padding-bottom: 35px;
-    margin-left: -11px;
+    /* margin-left: -11px; */
 }
 .customers .client{
     background-color: #9e9e9e80;
@@ -567,6 +570,9 @@ footer form button{
     background-color: #1cd7d7;;
     border-radius: 12px;
     font-size: 20px;
+}
+footer form button:hover{
+    cursor: pointer;
 }
 footer > p:last-of-type{
     text-align: center;
