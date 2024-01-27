@@ -467,6 +467,11 @@ width: 0;
     padding-bottom: 35px;
     /* margin-left: -11px; */
 }
+@media (max-width:767px) {
+    .customers .container{
+        margin-left: -11px;
+    }
+}
 .customers .client{
     background-color: #9e9e9e80;
     position: relative;
